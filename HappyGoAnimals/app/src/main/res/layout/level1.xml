@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_view"
+    android:background="@drawable/пустыня_фон" >
+
+    <ImageView
+        android:id="@+id/firstAnimalWhite"
+        android:src="@drawable/слон_контур"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/firstAnimal" />
+
+    <ImageView
+        android:id="@+id/secondAnimalWhite"
+        android:src="@drawable/крокодил_контур"
+        android:layout_marginEnd="108dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="73dp"
+        android:layout_alignTop="@+id/secondAnimal"
+        android:layout_alignEnd="@+id/firstAnimalWhite" />
+
+    <com.xwizard.happygoanimals.Animal
+        android:id="@+id/firstAnimal"
+        android:src="@drawable/croc1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.xwizard.happygoanimals.Animal
+        android:id="@+id/secondAnimal"
+        android:src="@drawable/croc2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

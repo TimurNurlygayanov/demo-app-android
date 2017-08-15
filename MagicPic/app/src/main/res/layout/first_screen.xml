@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ImageView
+        android:id="@+id/colors_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/car001_red"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.xwizard.magicpic.ClearWhite
+        android:id="@+id/white_screen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/white_fon"
+        android:layout_alignParentTop="true" />
+
+    <!--
+    <com.xwizard.magicpic.MySwView
+        android:id="@+id/white_experimental"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/white_fon"
+        android:layout_alignParentTop="true"
+        />  -->
+
+    <ImageView
+        android:id="@+id/contur_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/car001_lines"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
